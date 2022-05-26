@@ -1,0 +1,400 @@
+.productsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    overflow: hidden;
+    .productsElement1{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        position: relative;
+        .products1Item1{
+            grid-column: 1 / 2;
+            height: 90vh;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            button{
+                position: absolute;
+                top: 60%;
+                left: 25%;
+                font-size: 4vh;
+                font-weight: bold;
+                color: #000;
+                background-color: transparent;
+                border: solid 0.5vh #000;
+                opacity: 0;
+                cursor: pointer;
+            }
+            &:hover{
+                button{
+                    opacity: 1;
+                }
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .products1Item2{
+            padding: 2vw;
+            grid-column: 2 / 3;
+            position: relative;
+            height: calc(90vh - 4vw);
+            font-size: 2.8vh;
+            p{
+                text-transform: capitalize;
+                font-style: italic;
+            }
+            div{
+                button{
+                    border: none;
+                    background-color: transparent;
+                    svg{
+                        position: relative;
+                        top: 1vh;
+                    }
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 1.8vh;
+                    }
+                }
+            }
+            img{
+                height: 35vh;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                border-top: 1.5vh solid transparent;
+                border-bottom: 1.5vh solid transparent;
+                border-right: 1.5vh solid #fff;
+                top: 45%;
+                left: -1.5vh;
+            }
+        }
+    }
+    .productsElement2{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        position: relative;
+        .products2Item1{
+            grid-column: 2 / 3;
+            height: 90vh;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            button{
+                position: absolute;
+                top: 60%;
+                right: 25%;
+                font-size: 4vh;
+                font-weight: bold;
+                color: #000;
+                background-color: transparent;
+                border: solid 0.5vh #000;
+                opacity: 0;
+                cursor: pointer;
+            }
+            &:hover{
+                button{
+                    opacity: 1;
+                }
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .products2Item2{
+            grid-column: 1/ 2;
+            height: calc(90vh - 4vw);
+            position: relative;
+            padding: 2vw;
+            font-size: 2.8vh;
+            p{
+                text-transform: capitalize;
+                font-style: italic;
+            }
+            div{
+                button{
+                    border: none;
+                    font-size: 3vh;
+                    background-color: transparent;
+                    svg{
+                        position: relative;
+                        top: 1vh;
+                    }
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 1.8vh;
+                    }
+                }
+            }
+            img{
+                height: 35vh;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                border-top: 1.5vh solid transparent;
+                border-bottom: 1.5vh solid transparent;
+                border-left: 1.5vh solid #fff;
+                top: 45%;
+                right: -1.5vh;
+            }
+        }
+    }
+    .productsElement3{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        position: relative;
+        .products3Item1{
+            grid-column: 1 / 2;
+            height: 90vh;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            button{
+                position: absolute;
+                top: 60%;
+                left: 25%;
+                font-size: 4vh;
+                font-weight: bold;
+                color: #000;
+                background-color: transparent;
+                border: solid 0.5vh #000;
+                opacity: 0;
+                cursor: pointer;
+            }
+            &:hover{
+                button{
+                    opacity: 1;
+                }
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .products3Item2{
+            grid-column: 2 / 3;
+            position: relative;
+            height: calc(90vh - 4vw);
+            padding: 2vw;
+            font-size: 2.8vh;
+            p{
+                text-transform: capitalize;
+                font-style: italic;
+            }
+            div{
+                button{
+                    border: none;
+                    font-size: 3vh;
+                    background-color: transparent;
+                    svg{
+                        position: relative;
+                        top: 1vh;
+                    }
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 1.8vh;
+                    }
+                }
+            }
+            img{
+                height: 35vh;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                border-top: 1.5vh solid transparent;
+                border-bottom: 1.5vh solid transparent;
+                border-right: 1.5vh solid #fff;
+                top: 45%;
+                left: -1.5vh;
+            }
+        }
+    }
+    .productsElement4{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        position: relative;
+        .products4Item1{
+            grid-column: 2 / 3;
+            height: 90vh;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            button{
+                position: absolute;
+                top: 60%;
+                right: 25%;
+                font-size: 4vh;
+                font-weight: bold;
+                color: #000;
+                background-color: transparent;
+                border: solid 0.5vh #000;
+                opacity: 0;
+                cursor: pointer;
+            }
+            &:hover{
+                button{
+                    opacity: 1;
+                }
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .products4Item2{
+            grid-column: 1 / 2;
+            position: relative;
+            height: calc(90vh - 4vw);
+            padding: 2vw;
+            font-size: 2.8vh;
+            p{
+                text-transform: capitalize;
+                font-style: italic;
+            }
+            div{
+                button{
+                    border: none;
+                    font-size: 3vh;
+                    background-color: transparent;
+                    svg{
+                        position: relative;
+                        top: 1vh;
+                    }
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 1.8vh;
+                    }
+                }
+            }
+            img{
+                height: 35vh;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                border-top: 1.5vh solid transparent;
+                border-bottom: 1.5vh solid transparent;
+                border-left: 1.5vh solid #fff;
+                top: 45%;
+                right: -1.5vh;
+            }
+        }
+    }
+    .productsElement5{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        position: relative;
+        .products5Item1{
+            grid-column: 1 / 2;
+            height: 90vh;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            button{
+                position: absolute;
+                top: 60%;
+                left: 25%;
+                font-size: 4vh;
+                font-weight: bold;
+                color: #000;
+                background-color: transparent;
+                border: solid 0.5vh #000;
+                opacity: 0;
+                cursor: pointer;
+            }
+            &:hover{
+                button{
+                    opacity: 1;
+                }
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .products5Item2{
+            grid-column: 2 / 3;
+            position: relative;
+            height: calc(90vh - 4vw);
+            padding: 2vw;
+            font-size: 2.8vh;
+            p{
+                text-transform: capitalize;
+                font-style: italic;
+            }
+            div{
+                button{
+                    border: none;
+                    font-size: 3vh;
+                    background-color: transparent;
+                    svg{
+                        position: relative;
+                        top: 1vh;
+                    }
+                }
+                span{
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 1.8vh;
+                    }
+                }
+            }
+            img{
+                height: 35vh;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                border-top: 1.5vh solid transparent;
+                border-bottom: 1.5vh solid transparent;
+                border-right: 1.5vh solid #fff;
+                top: 45%;
+                left: -1.5vh;
+            }
+        }
+    }
+}

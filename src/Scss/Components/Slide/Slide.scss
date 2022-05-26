@@ -1,0 +1,33 @@
+.slideMenu{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.slider{
+    width: 100vw;
+    height: 98vh;
+    background-color: #000;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    input{
+        position: relative;
+        margin-left: 2vw;
+        z-index: 2;
+        opacity: 0.5;
+        &:checked ~ img{
+            opacity: 1;
+        }
+    }
+    img{
+        transition: all 0.5s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+    }
+}
